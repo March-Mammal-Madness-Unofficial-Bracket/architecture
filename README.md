@@ -7,11 +7,11 @@ SQLite DB -> Server Side Code -> Front End Code
 The Bracket JSON will look like the example below. It'll just be the selections, since name data is handed by Cookies with our login system.
 
 {
-"Round 1": "[Animal 1, Animal 2, Animal 3, Animal 4]",
-"Round 2": "[Animal 1, Animal 2, Animal 3, Animal 4]",
-"Round 3": "[Animal 1, Animal 2, Animal 3, Animal 4]",
-"Round 4": "[Animal 1, Animal 2, Animal 3, Animal 4]",
-"Round 5": "[Animal 1, Animal 2, Animal 3, Animal 4]",
+"Round 1": ["Animal 1", "Animal 2", "Animal 3", "Animal 4"],
+"Round 2": ["Animal 1", "Animal 2", "Animal 3", "Animal 4"],
+"Round 3": ["Animal 1", "Animal 2", "Animal 3", "Animal 4"],
+"Round 4": ["Animal 1", "Animal 2", "Animal 3", "Animal 4"],
+"Round 5": ["Animal 1", "Animal 2", "Animal 3", "Animal 4"],
 "Champion": "Animal 8",
 "Wild Card": "Animal 10"
 }
