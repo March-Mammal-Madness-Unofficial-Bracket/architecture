@@ -47,3 +47,11 @@ JSON will be Bracket JSON
 POST new_bracket:  
 a new march mammal madness season. Request w/ JSON
 JSON will be a 64 length array with each animal name, like `["bear","cat","donkey"]` but longer
+
+## Database Internals
+
+Table with username, id, password, and basic user info
+
+Table with UNIQUE corresponding to a row on the above table, along with a STRING containing the JSON of their bracket
+
+Table with autoincrementing ID of all admin Bracket changes, allowing for possible reversion
