@@ -2,6 +2,10 @@
 
 SQLite DB -> Server Side Code -> Front End Code
 
+Backend JS URL: https://backendjs.swiboe.org/
+Backend Rust URL: https://backend.swiboe.org/
+Frontend URL: https://bracket.swiboe.org/
+
 ## Bracket JSON
 
 The Bracket JSON will look like the example below. It'll just be the selections, since name data is handed by Cookies with our login system.
